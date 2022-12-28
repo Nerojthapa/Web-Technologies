@@ -1,6 +1,8 @@
 img{
     min-width: auto;
     height: auto;
+
+
 }
 p{
     font-family: 'Courier New', Courier, monospace;
@@ -47,9 +49,6 @@ p{
         }
     }
         
-        
-    }
-}
 /* laptop */
 @media screen  and (min-width:769px) and (max-width:1024px){
     img{
@@ -62,11 +61,10 @@ p{
         font-style: italic;
         text-transform: uppercase;
         letter-spacing: 20px;
-        background-color:yellow
+        background-color:yellow;
         color:black;
     
     }
 }
     
     
-}
