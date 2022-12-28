@@ -1,0 +1,36 @@
+h1{
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-family: "Unbounded", cursive;
+}
+body[boybackground]{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  button{
+    display: inline-block;
+    padding: 10px 50px;
+    background: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover{
+    background: black;
+    color: orange;
+  }
+  body[boybackground]{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  content-wrapper {
+    width: 50%;
+    background-color: rgb(12, 59, }

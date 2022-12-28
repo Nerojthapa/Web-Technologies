@@ -1,0 +1,46 @@
+.p1{
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+.p2{
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
+    background-color: brown;
+    color: pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 2px;
+    letter-spacing:2px;
+    margin: 10px;
+    padding: 10px;
+    ]}
+.p3{
+    height: 250px;
+    width: 250px;
+    font: size 20px;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    background: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+    
+}

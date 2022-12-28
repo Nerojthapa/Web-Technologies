@@ -1,0 +1,15 @@
+h1{
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px pink;
+    position: relative;
+}
+h2{
+    background-color: blueviolet;
+    color: yellow;
+    font-family: cursive;
+    text-shadow: 2px 2px red;
+    position: relative;
+    bottom: 50px;
+}

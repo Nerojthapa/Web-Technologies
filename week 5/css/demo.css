@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+body{
+    
+    /* background-image: url("download.jfif"); */
+    background:linear-gradientto (red,orange,blue);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* 
+#box1{
+    border-style: dotted;
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+   border-radius: 10px;
+   padding: 5px;
+   margin: 10px;
+
+}
+#box2{
+    border-style: dashed;
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+    color: black;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+#box3{
+    border-style: double;
+    height: 250px;
+    width: 250;
+    background-color: brown;
+    color: greenyellow;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+
+}
+#box4{
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    background-color:blueviolet ;
+    color:red ;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 10px;
+} */

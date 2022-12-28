@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#heading{
+    background-color: blue;
+    color:white ;
+    font-size: 60px;
+}
+.paragraph{
+    background-color: brown;
+    color: black;
+    font-style: italic;
+}
+#p2{
+background-color: gold;
+color: whitesmoke;
+font-weight: bold;
+font-size: 40px;
+}
