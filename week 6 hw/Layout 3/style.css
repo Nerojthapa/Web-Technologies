@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color:orange;
+}
+.title{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-size: 2ex;
+}
+.container{
+    width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+
+}
+.container .box{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    max-width: 30vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container .box .photo{
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.container .box .name{
+    font-size: 2em;
+    font-weight: bolder;
+}
+.container .box .post{
+    padding: 1%;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+.container .box .company{
+    padding: 1%;
+    font-size: 1.2em;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+.container .box .date{
+    margin-top: 10%;
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+.container .box span{
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
