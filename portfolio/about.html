@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="gallery/gallery.html" >
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+<body>
+    <div class="container">
+      <nav>
+        <h2 class="topic">Portfolio</h2> 
+        <ul>
+          <li><a href="http://127.0.0.1:5500/portfolio/home.html" class="hm">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/portfolio/about.html" class="hm">About me</a></li>
+           <li><a href="http://127.0.0.1:5500/portfolio/gallery.html" class="hm">Gallery</a></li>
+          <li><a href="http://127.0.0.1:5500/portfolio/work.html" class="hm">My Work</a></li>
+           <li><a href="http://127.0.0.1:5500/portfolio/contact.html" class="hm">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- ---about--- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/nirojimg2.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am Niroj Thapa Permanent resident of Bhimeshwor 05,Mati Dolakha Nepal son of Mr. Rana
+            Bahadur Thapa and Mrs. Jagat Kumari Thapa. I was born on 17th June 2003.Talking about my studies, I have completed my Secondary Education Examination (SEE), in the year
+            2019, securing 3.2 GPA from I.J Pioneer Secondary School. After that, I went on to do my School
+            Leaving Certificate (SLC) and completed that in the year 2021. I secured an overall of 3.17 GPA from
+            I. J Pioneer Secondary School.After that I recently joined bachelor level,studing Bsc.IT in Herald College Kathmandu.</p>
+            <div class="tab-titles">
+              <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+              <P class="tab-links" onclick="opentab('experience')">Experience</P>
+              <P class="tab-links" onclick="opentab('education')">Education</P>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Webpage</li>
+                <li><span>Creative Writing</span><br>Blog and Report</li>
+                <li><span>Basic On Programming </span><br>Java and Python</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022/03/12-2022/09/01</span><br>Teching Computer for grade four to eight</li>
+                <li><span>2022/04/12-2022/09/10</span><br>Science Lab Assistant for +2(Science)physcics and chemistry</li>
+    
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2019</span><br>SEE from I.J Pioneer Secondary School</li>
+                <li><span>2019</span><br> Basic Computer Course from Aptech Computer Education</li>
+                <li><span>2021</span><br>NEB from I.J Pioneer Secondary School</li>
+              </ul>
+              <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+            
+                function opentab(tabname){
+                  for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                  }
+                  for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+              }
+              </script>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+ <!--===== FOOTER =====-->
+ <div class="copyright">
+  <p>copyright@2023.All rigths reserved</p>
+</div>
+</html>
